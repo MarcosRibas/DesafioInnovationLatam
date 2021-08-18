@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+*{
+    box-sizing: border-box;
+} 
+
+body {
+    margin: 0%;
+    background-color: #ECECEC;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.topMenu {
+
+    height: 70px;
+    margin: auto;
+    background-color: #343A40;
+    
+}
+
+.topMenuContent{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin: auto;
+    width: 900px;
+    padding: 0px 30px;
+
+}
+.topMenuRightOptions{
+    display: flex;
+    color: #D63D84;
+    font-size: 30px;
+
+}
+
+.topMenuRightOptions i{
+   margin-right: 25px;
+}
+
+.logo {
+    padding-top: 10px;
+
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 900px;
+    height: 300px;
+    background-color: white;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+.overTitle {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0%;
+}
+.mainTitle {
+    font-weight: normal;
+    font-size: 72px;
+    margin: 0%;
+    color: #951B81;
+    text-shadow: 0em 0.03em 0.1em rgba(0, 0, 0, 0.481);
+}
+.underTitle {
+    font-weight: bold;
+    margin: 10px;
+}
+.musicCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 60px;
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+.musicCardContent {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+
+
+}
+.musicCardInfo {
+    text-align: center;
+}
+
+
+.musicCardButtons{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: #951B81;
+    width: auto;
+    height: auto;
+    color: white;
+    margin: 0px 3px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    
+}
+
+footer {
+
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    height: 50px;
+    margin: auto;
+    background-color: #343A40;
+}
+.text{
+    height: 150px;
+
+
+}
+
+
+
+footer  i{
+    margin-right: 20px;
+}
+
+#dialog_lock{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0.308);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.dialog_play{
+    position: fixed;
+    padding: 20px;
+    border-radius: 5px;
+    top: calc(50vh - 60px);
+    left: calc(50vw - 100px);
+    background-color: white;
+    width: 240px;
+    height: 140px;
+}
+
+.dialogHeader{
+    display: flex;
+}
+
+.playTitle{
+    flex: 1;
+    text-align: center;
+    margin: 0%;
+    font-size: 18px;
+    color: #951B81
+}
+
+.dialog_body{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin: 23px;
+}
+
+
+.dialog_buttons{
+    display: flex;
+    justify-content: center;
+}
