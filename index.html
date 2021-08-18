@@ -52,7 +52,7 @@
             </div>
             <div class="musicCardButtons">
                 <button class="button" onclick="play('Hold Up')">Play <i class="bi bi-music-note"></i></button>
-                <button class="button" onclick="save(1)">Saved <i class="bi bi-plus"></i>
+                <button class="button" onclick="save(1)">Saved <i class="bi bi-plus" id = "saveButton"></i>
                 </button>
             </div>
             
@@ -74,8 +74,8 @@
             <p>Beyonce - Lemonade</p>
         </div>        
         <div class="dialog_buttons">                
-            <button class="button" onclick="play()">Stop <i class="bi bi-music-note"></i></button>
-            <button class="button" onclick="play()">Play <i class="bi bi-music-note"></i></button>
+            <button class="button" onclick="closeDialog()" id="stopButton">Stop <i class="bi bi-stop-fill"></i></button>
+            <button class="button" onclick="closeDialog()">Play <i class="bi bi-play-fill"></i></button>
         </div>
     </div>
 </body>

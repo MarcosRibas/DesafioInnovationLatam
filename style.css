@@ -81,7 +81,7 @@ body {
     margin: auto;
     margin-top: 30px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .musicCardContent {
     flex: 1;
@@ -91,7 +91,11 @@ body {
 
 }
 .musicCardInfo {
-    text-align: center;
+    text-align: center;    
+}
+.musicCardInfo h2{
+    color: #9D2C8A;
+        
 }
 
 
@@ -110,9 +114,22 @@ body {
     padding: 5px 10px;
     
 }
+.button:hover {
+    background-color: #db00b7;
+    color: white;
+    cursor: pointer;
+}
+.button#stopButton{
+    background-color: #49BAB6;
 
-footer {
+}
+.button#stopButton:hover {
+    background-color: #59e4df;
+    color: white;
+    cursor: pointer;
+}
 
+footer {   
     display: flex;
     justify-content: center ;
     align-items: center;
