@@ -43,7 +43,10 @@ body {
     padding-top: 10px;
 
 }
-
+hr{
+    width: 20%;
+    align: center;
+}
 .mainContent {
     display: flex;
     flex-direction: column;
