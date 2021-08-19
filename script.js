@@ -3,7 +3,7 @@ let music_list = [false,false]
 let saved = 0
 let dialog_lock = document.getElementById('dialog_lock')
 let playTitle = document.getElementById('playTitle')
-
+let saveButton = document.getElementById('saveButton')
 
 
 function play(music){    
@@ -18,10 +18,10 @@ function closeDialog(){
 
 }
 
-function save(position, icon) {
+function save(position) {
     let counter = document.getElementById('counter')
     if(music_list[position]){
-
+        saveButton.innerText= `Save`
         saved -= 1
         music_list[position] = false
 
@@ -29,6 +29,7 @@ function save(position, icon) {
 
         saved += 1
         music_list[position] = true
+        saveButton.innerText= `Saved`
 
     }
 
