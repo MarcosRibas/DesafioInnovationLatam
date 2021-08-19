@@ -203,3 +203,7 @@ footer  i{
     display: flex;
     justify-content: center;
 }
+
+.invisivel {
+    display: none;
+}
